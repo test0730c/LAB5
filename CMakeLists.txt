@@ -7,7 +7,7 @@ option(BUILD_TESTS "Build tests" OFF)
 
 if(BUILD_TESTS)
   add_compile_options(--coverage)
-endif()
+endif() 
 
 project (banking)
 
